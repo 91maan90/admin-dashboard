@@ -1,11 +1,21 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+}
+
 header {
     background-color: aqua;
     border: 1px solid black;
+    grid-column: 2 / -1;
 }
 
 nav {
     background-color: greenyellow;
     border: 1px solid black;
+    grid-row: 1 / -1;
 }
 
 main {
