@@ -1,0 +1,14 @@
+header {
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+nav {
+    background-color: greenyellow;
+    border: 1px solid black;
+}
+
+main {
+    background-color: coral;
+    border: 1px solid black;
+}
