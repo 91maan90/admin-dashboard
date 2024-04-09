@@ -16,10 +16,26 @@ nav {
     background-color: greenyellow;
     border: 1px solid black;
     grid-row: 1 / -1;
+    display: grid;
+    align-content: start;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.branding,
+nav li {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    justify-items: center;
 }
 
 nav ul {
     display: inline;
+    padding: 0;
+    margin: 0;
 }
 
 nav li {
@@ -29,6 +45,11 @@ nav li {
 nav a {
     text-decoration: none;
     color: inherit;
+    justify-self: start;
+}
+
+.branding img {
+    height: 2rem;
 }
 
 main {
