@@ -2,8 +2,9 @@ body {
     margin: 0;
     height: 100vh;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: minmax(auto 1fr) 4fr;
     grid-template-rows: auto 1fr;
+    font-family: sans-serif;
 }
 
 header {
@@ -13,13 +14,16 @@ header {
 }
 
 nav {
-    background-color: greenyellow;
+    background-color: #1992d4;
+    color: white;
     border: 1px solid black;
     grid-row: 1 / -1;
     display: grid;
     align-content: start;
-    gap: 1rem;
-    padding: 1rem;
+    gap: 2rem;
+    padding: 2rem;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .branding,
@@ -27,7 +31,7 @@ nav li {
     display: grid;
     grid-template-columns: 2rem 1fr;
     gap: 1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     align-items: center;
     justify-items: center;
 }
@@ -48,8 +52,12 @@ nav a {
     justify-self: start;
 }
 
+.branding {
+    font-size: xx-large;
+}
+
 .branding img {
-    height: 2rem;
+    height: 3rem;
 }
 
 main {
