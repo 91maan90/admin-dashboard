@@ -16,12 +16,11 @@ header {
 nav {
     background-color: #1992d4;
     color: white;
-    border: 1px solid black;
     grid-row: 1 / -1;
     display: grid;
     align-content: start;
     gap: 2rem;
-    padding: 2rem;
+    padding: 1rem;
     font-weight: bold;
     font-size: x-large;
 }
@@ -29,9 +28,9 @@ nav {
 .branding,
 nav li {
     display: grid;
-    grid-template-columns: 2rem 1fr;
+    grid-template-columns: 3rem 1fr;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     align-items: center;
     justify-items: center;
 }
