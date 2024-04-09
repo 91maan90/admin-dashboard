@@ -18,6 +18,15 @@ nav {
     grid-row: 1 / -1;
 }
 
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
 main {
     background-color: coral;
     border: 1px solid black;
