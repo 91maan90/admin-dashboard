@@ -26,13 +26,13 @@ nav {
 }
 
 .branding,
-nav li {
+nav li a {
     display: grid;
     grid-template-columns: 3rem 1fr;
     gap: 1rem;
     margin-bottom: 2rem;
     align-items: center;
-    justify-items: center;
+    justify-items: start;
 }
 
 nav ul {
@@ -49,6 +49,11 @@ nav a {
     text-decoration: none;
     color: inherit;
     justify-self: start;
+}
+
+nav i,
+nav img {
+    justify-self: center;
 }
 
 .branding {
