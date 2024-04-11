@@ -10,7 +10,27 @@
 </head>
 
 <body>
-    <header>Header</header>
+    <header>
+        <form action="/search" method="get" id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" name="query">
+        </form>
+        <div id="alerts-user">
+            <i class="fa-solid fa-bell"></i>
+            <img src="assets/avatars/1.jpeg" alt="avatar">
+            <span id="user-name">Morgan Oakley</span>
+        </div>
+        <div id="user-info">
+            <img src="assets/avatars/1.jpeg" alt="avatar">
+            <p>Hi there,</p>
+            <span>Morgan Oakley (@morgan)</span>
+        </div>
+        <div id="button-group">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+        </div>
+    </header>
     <nav>
         <div class="branding">
             <img src="assets/view-dashboard.svg" alt="Logo">
