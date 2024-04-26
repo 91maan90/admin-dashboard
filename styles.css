@@ -8,9 +8,55 @@ body {
 }
 
 header {
-    background-color: aqua;
-    border: 1px solid black;
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     grid-column: 2 / -1;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    font-weight: bold;
+}
+
+header>* {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+header input {
+    width: 80%;
+}
+
+#alerts-user {
+    font-size: large
+}
+
+#alerts-user img {
+    height: 3rem;
+}
+
+#user-info {
+    grid-template-rows: repeat(2, auto);
+    gap: 0.5rem 1rem;
+}
+
+#user-info img {
+    height: 6rem;
+    grid-row: 1 / -1;
+}
+
+#greeting {
+    align-self: end;
+}
+
+#user-name-large {
+    align-self: start;
+    font-size: xx-large;
 }
 
 nav {
