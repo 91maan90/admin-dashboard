@@ -139,3 +139,13 @@ main {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
+
+.trending-user {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(2, auto);
+}
+
+.trending-user img {
+    grid-row: 1 / -1;
+}

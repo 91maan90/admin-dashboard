@@ -72,11 +72,11 @@ function fetchProjects() {
                 img.alt = user.username + "'s avatar";
                 div.appendChild(img);
 
-                const username = document.createElement('p');
+                const username = document.createElement('span');
                 username.textContent = '@' + user.username;
                 div.appendChild(username);
 
-                const bio = document.createElement('p');
+                const bio = document.createElement('span');
                 bio.textContent = user.bio;
                 div.appendChild(bio);
 
