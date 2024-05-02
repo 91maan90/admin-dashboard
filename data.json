@@ -1,0 +1,64 @@
+{
+    "projects": [
+        {
+            "title": "Super Cool Project",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "title": "Less Cool Project",
+            "description": "Sagittis aliquam malesuada bibendum arcu vitae elementum."
+        },
+        {
+            "title": "Impossible App",
+            "description": "Quisque non tellus orci ac."
+        },
+        {
+            "title": "Easy Peasy App",
+            "description": "Faucibus a pellentesque sit amet porttitor."
+        },
+        {
+            "title": "Ad Blocker",
+            "description": "Arcu risus quis varius quam quisque."
+        },
+        {
+            "title": "Money Maker",
+            "description": "A diam sollicitudin tempor id."
+        }
+    ],
+    "announcements": [
+        {
+            "title": "Site Maintenance",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "title": "Community Share Day",
+            "description": "Sagittis aliquam malesuada bibendum arcu vitae elementum."
+        },
+        {
+            "title": "Updated Privacy Policy",
+            "description": "Quisque non tellus orci ac."
+        }
+    ],
+    "trending": [
+        {
+            "avatar": "assets/avatars/2.jpeg",
+            "username": "tegan",
+            "bio": "World Peace Builder"
+        },
+        {
+            "avatar": "assets/avatars/1.jpeg",
+            "username": "morgan",
+            "bio": "Super Cool Project"
+        },
+        {
+            "avatar": "assets/avatars/3.jpeg",
+            "username": "kendall",
+            "bio": "Life Changing App"
+        },
+        {
+            "avatar": "assets/avatars/4.jpeg",
+            "username": "alex",
+            "bio": "No Traffic Maker"
+        }
+    ]
+}

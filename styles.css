@@ -36,7 +36,8 @@ header input {
     font-size: large
 }
 
-#alerts-user img {
+#alerts-user img,
+#trending img {
     height: 3rem;
 }
 
@@ -108,9 +109,4 @@ nav img {
 
 .branding img {
     height: 3rem;
-}
-
-main {
-    background-color: coral;
-    border: 1px solid black;
 }
