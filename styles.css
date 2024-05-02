@@ -7,6 +7,10 @@ body {
     font-family: sans-serif;
 }
 
+img {
+    border-radius: 100%;
+}
+
 #header {
     background-color: white;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
@@ -109,4 +113,29 @@ nav img {
 
 .branding img {
     height: 3rem;
+}
+
+#content {
+    background-color: #e2e8f0;
+    padding: 1rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#content article {
+    border: 1px solid black;
+}
+
+main {
+    grid-row: 1 / -1;
+}
+
+#projects {
+    resize: both;
+    overflow: auto;
+    display: grid;
+    gap: 4px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }

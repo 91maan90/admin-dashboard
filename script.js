@@ -5,7 +5,7 @@ function fetchProjects() {
         .then(response => response.json()) // Parse JSON response
         .then(data => {
             // Select the main element
-            const mainElement = document.querySelector('main');
+            const projectsElement = document.querySelector('#projects');
 
             // Iterate over each project in the JSON data
             data.projects.forEach((project) => {
@@ -34,7 +34,7 @@ function fetchProjects() {
                 article.appendChild(div);
 
                 // Append article to the main element
-                mainElement.appendChild(article);
+                projectsElement.appendChild(article);
             });
 
             // Select the announcements element
