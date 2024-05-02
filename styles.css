@@ -7,7 +7,7 @@ body {
     font-family: sans-serif;
 }
 
-header {
+#header {
     background-color: white;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     grid-column: 2 / -1;
@@ -18,7 +18,7 @@ header {
     font-weight: bold;
 }
 
-header>* {
+#header>* {
     width: 100%;
     display: grid;
     grid-template-columns: auto 1fr;
@@ -28,7 +28,7 @@ header>* {
     gap: 1rem;
 }
 
-header input {
+#header input {
     width: 80%;
 }
 
