@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     margin: 0;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto 1fr;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -65,7 +67,7 @@ img {
 }
 
 nav {
-    background-color: #1992d4;
+    background-color: #8b5cf6;
     color: white;
     grid-row: 1 / -1;
     display: grid;
@@ -116,7 +118,7 @@ nav img {
 }
 
 #content {
-    background-color: #e2e8f0;
+    background-color: #f5f3ff;
     padding: 1rem;
     gap: 1rem;
     display: grid;
