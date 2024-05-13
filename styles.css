@@ -38,9 +38,19 @@ img {
     gap: 1rem;
 }
 
-#header input {
+input {
     width: 80%;
+    font-size: large;
     background-color: var(--main-color-light);
+    border: none;
+    padding: 0.5em;
+    border-radius: 20px;
+}
+
+input:focus,
+input:focus-visible {
+    outline: var(--main-color) solid 2px;
+    box-shadow: 0px 2px 3px var(--main-color);
 }
 
 #alerts-user {
