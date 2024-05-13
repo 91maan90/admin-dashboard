@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+:root{
+    --main-color: #8b5cf6;
+    --main-color-light: #f5f3ff;
+}
+
 body {
     margin: 0;
     height: 100vh;
@@ -14,7 +19,6 @@ img {
 }
 
 #header {
-    background-color: white;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     grid-column: 2 / -1;
     display: grid;
@@ -36,6 +40,7 @@ img {
 
 #header input {
     width: 80%;
+    background-color: var(--main-color-light);
 }
 
 #alerts-user {
@@ -67,7 +72,7 @@ img {
 }
 
 nav {
-    background-color: #8b5cf6;
+    background-color: var(--main-color);
     color: white;
     grid-row: 1 / -1;
     display: grid;
@@ -118,7 +123,7 @@ nav img {
 }
 
 #content {
-    background-color: #f5f3ff;
+    background-color: var(--main-color-light);
     padding: 1rem;
     gap: 1rem;
     display: grid;
