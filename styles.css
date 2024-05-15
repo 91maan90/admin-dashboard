@@ -19,6 +19,8 @@ img {
 }
 
 #header {
+    position: relative;
+    z-index: 1;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     grid-column: 2 / -1;
     display: grid;
@@ -55,6 +57,12 @@ input:focus-visible {
 
 #alerts-user {
     font-size: large
+}
+
+#alerts-user img,
+#trending img,
+#user-info img {
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
 #alerts-user img,
