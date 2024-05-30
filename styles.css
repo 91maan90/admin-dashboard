@@ -19,15 +19,19 @@ img {
 }
 
 #header {
-    position: relative;
-    z-index: 1;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     grid-column: 2 / -1;
     display: grid;
     grid-template-columns: 1fr auto;
     padding: 1rem 2rem;
     gap: 1rem;
     font-weight: bold;
+}
+
+#header,
+article {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 #header>* {
@@ -168,7 +172,9 @@ nav img {
 }
 
 #content article {
-    border: 1px solid black;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
 }
 
 main {
@@ -176,12 +182,22 @@ main {
 }
 
 #projects {
-    resize: both;
-    overflow: auto;
     display: grid;
-    gap: 4px;
+    gap: 1rem;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+#projects article {
+    border-left: 8px solid #cfa333;
+}
+
+#projects article div {
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: end;
+    justify-content: end;
+    gap: 1rem;
 }
 
 .trending-user {
