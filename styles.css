@@ -200,6 +200,13 @@ main {
     gap: 1rem;
 }
 
+#projects button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+}
+
 .trending-user {
     display: grid;
     grid-template-columns: auto 1fr;

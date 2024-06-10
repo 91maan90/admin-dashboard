@@ -21,11 +21,26 @@ function fetchProjects() {
                 p.textContent = project.description;
 
                 // Add buttons to the div
-                for (let i = 1; i <= 3; i++) {
-                    const button = document.createElement('button');
-                    button.textContent = i;
-                    div.appendChild(button);
-                }
+                const favI = document.createElement('i');
+                favI.className = "fa-solid fa-star";
+                const favButton = document.createElement('button');
+                favButton.appendChild(favI);
+                favButton.title = "Favorite";
+                div.appendChild(favButton);
+
+                const watchI = document.createElement('i');
+                watchI.className = "fa-solid fa-eye";
+                const watchButton = document.createElement('button');
+                watchButton.appendChild(watchI);
+                watchButton.title = "Watch";
+                div.appendChild(watchButton);
+
+                const forkI = document.createElement('i');
+                forkI.className = "fa-solid fa-code-fork";
+                const forkButton = document.createElement('button');
+                forkButton.appendChild(forkI);
+                forkButton.title = "Fork";
+                div.appendChild(forkButton);
 
                 // Append elements to the article
                 header.appendChild(h2);
