@@ -2,27 +2,27 @@
     "projects": [
         {
             "title": "Super Cool Project",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu."
         },
         {
             "title": "Less Cool Project",
-            "description": "Sagittis aliquam malesuada bibendum arcu vitae elementum."
+            "description": "Sagittis aliquam malesuada bibendum arcu vitae elementum. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu."
         },
         {
             "title": "Impossible App",
-            "description": "Quisque non tellus orci ac."
+            "description": "Quisque non tellus orci ac. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu."
         },
         {
             "title": "Easy Peasy App",
-            "description": "Faucibus a pellentesque sit amet porttitor."
+            "description": "Faucibus a pellentesque sit amet porttitor. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu."
         },
         {
             "title": "Ad Blocker",
-            "description": "Arcu risus quis varius quam quisque."
+            "description": "Arcu risus quis varius quam quisque. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu."
         },
         {
             "title": "Money Maker",
-            "description": "A diam sollicitudin tempor id."
+            "description": "A diam sollicitudin tempor id. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu."
         }
     ],
     "announcements": [

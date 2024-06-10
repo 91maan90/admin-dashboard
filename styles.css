@@ -173,8 +173,16 @@ nav img {
 
 #content article {
     background-color: white;
-    padding: 1rem;
+    padding: 2rem 1.5rem;
     border-radius: 8px;
+}
+
+#content article * {
+    margin: 0px;
+}
+
+#content p {
+    color: #555555;
 }
 
 main {
@@ -185,11 +193,14 @@ main {
     display: grid;
     gap: 1rem;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 #projects article {
     border-left: 8px solid #cfa333;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-rows: auto auto 1fr;
 }
 
 #projects article div {
@@ -198,6 +209,7 @@ main {
     justify-items: end;
     justify-content: end;
     gap: 1rem;
+    align-self: end;
 }
 
 #projects button {
