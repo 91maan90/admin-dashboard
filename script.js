@@ -11,6 +11,7 @@ function fetchProjects() {
             data.projects.forEach((project) => {
                 // Create HTML elements for each project
                 const article = document.createElement('article');
+                article.classList.add('shadow-l');
                 const header = document.createElement('header');
                 const h2 = document.createElement('h2');
                 const p = document.createElement('p');

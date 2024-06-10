@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header id="header">
+    <header id="header" class="shadow-l">
         <form action="/search" method="get" id="search">
             <i class="fa-solid fa-magnifying-glass"></i>
             <input type="search" name="query">
@@ -75,11 +75,13 @@
             <div id="projects"></div>
         </main>
         <aside>
-            <section id="announcements">
+            <section id="announcements-container">
                 <h1>Announcements</h1>
+                <div id="announcements" class="shadow-l"></div>
             </section>
-            <section id="trending">
+            <section id="trending-container">
                 <h1>Trending</h1>
+                <div id="trending" class="shadow-l"></div>
             </section>
         </aside>
     </div>
