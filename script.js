@@ -61,7 +61,7 @@ function fetchProjects() {
                 // Create HTML elements for each project
                 const article = document.createElement('article');
                 const header = document.createElement('header');
-                const h3 = document.createElement('h3');
+                const h3 = document.createElement('h2');
                 const p = document.createElement('p');
 
                 // Set content for the HTML elements
@@ -92,7 +92,7 @@ function fetchProjects() {
                 username.textContent = '@' + user.username;
                 div.appendChild(username);
 
-                const bio = document.createElement('span');
+                const bio = document.createElement('p');
                 bio.textContent = user.bio;
                 div.appendChild(bio);
 

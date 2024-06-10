@@ -178,7 +178,8 @@ nav img {
     border-radius: 8px;
 }
 
-#content article * {
+#content article *,
+#trending p {
     margin: 0px;
 }
 
@@ -220,7 +221,8 @@ main {
     font-size: medium;
 }
 
-#announcements {
+#announcements,
+#trending {
     display: grid;
     gap: 1rem;
     font-size: smaller;
@@ -244,8 +246,14 @@ main {
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: repeat(2, auto);
+    align-items: center;
+}
+
+.trending-user span{
+    font-weight: bold;
 }
 
 .trending-user img {
     grid-row: 1 / -1;
+    margin-right: 1rem;
 }
